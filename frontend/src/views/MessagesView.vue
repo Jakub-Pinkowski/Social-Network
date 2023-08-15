@@ -91,7 +91,7 @@
                     >
                         <div>
                             <div
-                                class="bg-blue-600 text-white p-3 rounded-l-lg rounded-br-lg"
+                                class="bg-blue-500 text-white p-3 rounded-l-lg rounded-br-lg"
                             >
                                 <p class="text-sm">
                                     Lorem ipsum dolor sit amet
@@ -149,7 +149,7 @@
                 <div class="p-4 border-t border-gray-100 flex justify-between">
                     <a
                         href="#"
-                        class="inline-block py-4 px-6 bg-blue-400 text-white rounded-lg"
+                        class="inline-block py-4 px-6 bg-blue-500 text-white rounded-lg"
                         >Post</a
                     >
                 </div>
