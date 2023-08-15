@@ -79,7 +79,7 @@
                 <div class="menu-right">
                     <a href="#">
                         <img
-                            src="https://i.pravatar.cc/40?img=70"
+                            src="https://i.pravatar.cc/40"
                             class="rounded-full"
                         />
                     </a>
