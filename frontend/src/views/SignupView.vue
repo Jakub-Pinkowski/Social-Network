@@ -63,6 +63,14 @@
                         />
                     </div>
 
+                    <template v-if="errors">
+                        <div class="=bg-red-300 text-white rounded-lg p-6">
+                            <p v-for="error in errors" :key="error">
+                                {{ error }}
+                            </p>
+                        </div>
+                    </template>
+
                     <div>
                         <button
                             class="py-4 px-6 bg-blue-500 text-white rounded-lg"
