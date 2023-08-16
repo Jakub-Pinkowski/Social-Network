@@ -63,7 +63,7 @@
                         />
                     </div>
 
-                    <template v-if="errors">
+                    <template v-if="errors.length > 0">
                         <div class="=bg-red-300 text-white rounded-lg p-6">
                             <p v-for="error in errors" :key="error">
                                 {{ error }}
@@ -128,7 +128,7 @@ const submitForm = () => {
 
     if (errors.value.length === 0) {
         axios
-            .post('/api/auth/signup', form.value)
+            .post('/api/signup/', form.value)
             .then((response) => {
                 if (response.data.message === 'success') {
                     const toastData = {
