@@ -38,9 +38,9 @@ def signup(request):
 
     if form.is_valid():
         form.save()
-
-        # Send verification email later!
     else:
         message = "error"
+
+        # TODO: Send verification email
 
     return JsonResponse({"message": message})
