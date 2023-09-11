@@ -13,3 +13,7 @@ import { useToastStore } from '@/stores/toast'
 
 const store = useToastStore()
 </script>
+
+<style scoped lang="scss">
+
+</style>
